@@ -6,6 +6,8 @@ import javafx.scene.control.TableView;
 import javafx.scene.control.TextField;
 import javafx.fxml.FXML;
 
+import javax.swing.*;
+
 public class TableViewController {
     @FXML private TableView<Student> tableView;
     @FXML private TextField firstNameField;
@@ -25,6 +27,9 @@ public class TableViewController {
         emailField.setText("");
     }
 
-
-
+    @FXML
+    protected void removeStudent(ActionEvent event) {
+        ObservableList<Student> data = tableView.getItems();
+        data.remove(tableView.getSelectionModel().getSelectedItem());
+    }
 }
