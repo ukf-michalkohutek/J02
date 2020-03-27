@@ -26,15 +26,15 @@
     <TableView fx:id="tableView" GridPane.columnIndex="0"
                GridPane.rowIndex="1">
         <columns>
+            <TableColumn text="Last Name" fx:id="lastNameColumn" prefWidth="100">
+                <cellValueFactory><PropertyValueFactory property="lastName" />
+                </cellValueFactory>
+            </TableColumn>
             <TableColumn text="First Name" fx:id="firstNameColumn" prefWidth="100">
                 <cellValueFactory><PropertyValueFactory property="firstName" />
                 </cellValueFactory>
             </TableColumn>
-            <TableColumn text="Last Name" prefWidth="100">
-                <cellValueFactory><PropertyValueFactory property="lastName" />
-                </cellValueFactory>
-            </TableColumn>
-            <TableColumn text="Email Address" prefWidth="100">
+            <TableColumn text="Email Address" prefWidth="250">
                 <cellValueFactory><PropertyValueFactory property="email" />
                 </cellValueFactory>
             </TableColumn>
@@ -57,7 +57,7 @@
 
 <!--         TODO: Upravte tento sort order tak, aby sa tabulka zoradila podla priezviska -->
         <sortOrder>
-            <fx:reference source="firstNameColumn"/>
+            <fx:reference source="lastNameColumn"/>
         </sortOrder>
     </TableView>
 
@@ -72,8 +72,9 @@
         <Button text="Add" onAction="#addStudent"/>
 
         <!--     Extra TODO: Vytvorte button, ktory vybraneho studenta vymaze -->
-        <!-- <Button text="Example" onAction="#removeStudent"/> -->
-
+        <Button text="Zmaz prveho" onAction="#removeStudent"/>
+        <!-- Tak zatial to maze prveho lepsie to asi nespravim -->
+        <!-- Pls nestlacaj to ked je zoznam prazdny vytvori to ciernu dieru dakujem -->
     </HBox>
 
 </GridPane>
