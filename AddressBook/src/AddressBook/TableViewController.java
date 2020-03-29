@@ -26,10 +26,7 @@ public class TableViewController {
     @FXML
     protected void removeStudent() {
         ObservableList<Student> data = tableView.getItems();
-        ObservableList<Student> student = tableView.getSelectionModel().getSelectedItems();
-        student.forEach(data::remove);
-        firstNameField.setText("");
-        lastNameField.setText("");
-        emailField.setText("");
+        int student = tableView.getSelectionModel().getSelectedIndex();
+        data.remove(student);
     }
 }
