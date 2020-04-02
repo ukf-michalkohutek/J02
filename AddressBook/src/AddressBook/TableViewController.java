@@ -25,6 +25,10 @@ public class TableViewController {
         emailField.setText("");
     }
 
-
-
+    @FXML
+    protected void removeStudent(ActionEvent event) {
+        ObservableList<Student> data = tableView.getItems();
+        data.remove(tableView.getSelectionModel().getSelectedItem());
+    }
+    
 }
