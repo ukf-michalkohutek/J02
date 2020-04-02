@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="" />
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AddressBook/TableView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/AddressBook/TableView.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AddressBook/TableViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AddressBook/TableViewController.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -66,11 +73,15 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1Zcy3cVVvv8IVXbqIls0IXpzbcw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectReloadState">
     <option name="STATE" value="0" />
   </component>
@@ -87,10 +98,12 @@
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="OverrideImplement.combined" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="/opt/javafx-sdk-14/lib" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="last_opened_file_path" value="$PATH_TO_FX$" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
@@ -124,7 +137,7 @@
     <configuration name="Main" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="AddressBook.Main" />
       <module name="AddressBook" />
-      <option name="VM_PARAMETERS" value="--module-path /opt/javafx-sdk-14/lib --add-modules javafx.controls,javafx.fxml" />
+      <option name="VM_PARAMETERS" value="--module-path ${PATH_TO_FX} --add-modules javafx.controls,javafx.fxml" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="AddressBook.*" />
@@ -186,48 +199,60 @@
       <option name="presentableId" value="Default" />
       <updated>1359379246138</updated>
       <workItem from="1359379250712" duration="1302000" />
+      <workItem from="1585866125942" duration="979000" />
     </task>
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1302000" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2222" y="1185" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585152691865">
-      <screen x="72" y="27" width="3768" height="2133" />
+    <state x="828" y="359" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585867104978">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
+    <state x="828" y="359" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1585867104978" />
     <state x="2222" y="1185" key="#com.intellij.execution.impl.EditConfigurationsDialog/72.27.3768.2133@72.27.3768.2133" timestamp="1585152691865" />
-    <state x="2386" y="1274" width="735" height="520" key="FileChooserDialogImpl" timestamp="1585152718074">
-      <screen x="72" y="27" width="3768" height="2133" />
+    <state x="1077" y="122" key="CommitChangelistDialog2" timestamp="1585867141365">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
+    <state x="1077" y="122" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1585867141365" />
+    <state x="502" y="198" width="992" height="502" key="FileChooserDialogImpl" timestamp="1585866163141">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="502" y="198" width="992" height="502" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1585866163141" />
     <state x="2386" y="1274" width="735" height="520" key="FileChooserDialogImpl/72.27.3768.2133@72.27.3768.2133" timestamp="1585152718074" />
-    <state width="2511" height="229" key="GridCell.Tab.0.bottom" timestamp="1585306703487">
-      <screen x="72" y="27" width="3768" height="2133" />
+    <state width="912" height="284" key="GridCell.Tab.0.bottom" timestamp="1585867141401">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
+    <state width="912" height="284" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1585867141401" />
     <state width="1528" height="182" key="GridCell.Tab.0.bottom/72.27.1848.1053@72.27.1848.1053" timestamp="1585155244439" />
     <state width="2511" height="229" key="GridCell.Tab.0.bottom/72.27.3768.2133@72.27.3768.2133" timestamp="1585306703487" />
-    <state width="2511" height="229" key="GridCell.Tab.0.center" timestamp="1585306703487">
-      <screen x="72" y="27" width="3768" height="2133" />
+    <state width="912" height="284" key="GridCell.Tab.0.center" timestamp="1585867141401">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
+    <state width="912" height="284" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1585867141401" />
     <state width="1528" height="182" key="GridCell.Tab.0.center/72.27.1848.1053@72.27.1848.1053" timestamp="1585155244438" />
     <state width="2511" height="229" key="GridCell.Tab.0.center/72.27.3768.2133@72.27.3768.2133" timestamp="1585306703487" />
-    <state width="2511" height="229" key="GridCell.Tab.0.left" timestamp="1585306703486">
-      <screen x="72" y="27" width="3768" height="2133" />
+    <state width="912" height="284" key="GridCell.Tab.0.left" timestamp="1585867141401">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
+    <state width="912" height="284" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1585867141401" />
     <state width="1528" height="182" key="GridCell.Tab.0.left/72.27.1848.1053@72.27.1848.1053" timestamp="1585155244438" />
     <state width="2511" height="229" key="GridCell.Tab.0.left/72.27.3768.2133@72.27.3768.2133" timestamp="1585306703486" />
-    <state width="2511" height="229" key="GridCell.Tab.0.right" timestamp="1585306703487">
-      <screen x="72" y="27" width="3768" height="2133" />
+    <state width="912" height="284" key="GridCell.Tab.0.right" timestamp="1585867141401">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
+    <state width="912" height="284" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1585867141401" />
     <state width="1528" height="182" key="GridCell.Tab.0.right/72.27.1848.1053@72.27.1848.1053" timestamp="1585155244439" />
     <state width="2511" height="229" key="GridCell.Tab.0.right/72.27.3768.2133@72.27.3768.2133" timestamp="1585306703487" />
-    <state x="2247" y="1105" width="1024" height="852" key="SettingsEditor" timestamp="1585305250113">
-      <screen x="72" y="27" width="3768" height="2133" />
+    <state x="694" y="155" width="1065" height="677" key="SettingsEditor" timestamp="1585866166828">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
+    <state x="694" y="155" width="1065" height="677" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1585866166828" />
     <state x="2247" y="1105" width="1024" height="852" key="SettingsEditor/72.27.3768.2133@72.27.3768.2133" timestamp="1585305250113" />
     <state x="2427" y="1180" width="672" height="678" key="search.everywhere.popup" timestamp="1585152951987">
       <screen x="72" y="27" width="3768" height="2133" />
