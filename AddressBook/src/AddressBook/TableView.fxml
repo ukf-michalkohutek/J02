@@ -26,15 +26,15 @@
     <TableView fx:id="tableView" GridPane.columnIndex="0"
                GridPane.rowIndex="1">
         <columns>
-            <TableColumn text="First Name" fx:id="firstNameColumn" prefWidth="100">
-                <cellValueFactory><PropertyValueFactory property="firstName" />
-                </cellValueFactory>
-            </TableColumn>
-            <TableColumn text="Last Name" prefWidth="100">
+            <TableColumn text="Last Name" fx:id="lastNameColumn" prefWidth="150">
                 <cellValueFactory><PropertyValueFactory property="lastName" />
                 </cellValueFactory>
             </TableColumn>
-            <TableColumn text="Email Address" prefWidth="100">
+            <TableColumn text="First Name" prefWidth="150">
+                <cellValueFactory><PropertyValueFactory property="firstName" />
+                </cellValueFactory>
+            </TableColumn>
+            <TableColumn text="Email Address" prefWidth="150">
                 <cellValueFactory><PropertyValueFactory property="email" />
                 </cellValueFactory>
             </TableColumn>
@@ -45,19 +45,19 @@
                 <Student firstName="Janko" lastName="Hrasko"
                          email="janko.hrasko@student.ukf.sk"/>
                 <Student firstName="Stefan" lastName="Ruzicka"
-                        email="stefan.ruzicka@student.ukf.sk"/>
+                         email="stefan.ruzicka@student.ukf.sk"/>
                 <Student firstName="Eugen" lastName="Vesely"
-                        email="eugen.vesely@student.ukf.sk"/>
+                         email="eugen.vesely@student.ukf.sk"/>
                 <Student firstName="Ema" lastName="Kratka"
-                        email="ema.kratka@student.ukf.sk"/>
+                         email="ema.kratka@student.ukf.sk"/>
                 <Student firstName="Pavol" lastName="Dlhy"
-                        email="pavol.dlhy@student.ukf.sk"/>
+                         email="pavol.dlhy@student.ukf.sk"/>
             </FXCollections>
         </items>
 
-<!--         TODO: Upravte tento sort order tak, aby sa tabulka zoradila podla priezviska -->
+        <!--         TODO: Upravte tento sort order tak, aby sa tabulka zoradila podla priezviska -->
         <sortOrder>
-            <fx:reference source="firstNameColumn"/>
+            <fx:reference source="lastNameColumn"/>
         </sortOrder>
     </TableView>
 
@@ -73,7 +73,7 @@
 
         <!--     Extra TODO: Vytvorte button, ktory vybraneho studenta vymaze -->
         <!-- <Button text="Example" onAction="#removeStudent"/> -->
-
+        <Button text="Vymaž" onAction="#removeStudent"/>
     </HBox>
 
 </GridPane>
