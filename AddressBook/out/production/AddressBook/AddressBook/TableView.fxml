@@ -26,7 +26,7 @@
     <TableView fx:id="tableView" GridPane.columnIndex="0"
                GridPane.rowIndex="1">
         <columns>
-            <TableColumn text="Last Name" fx:id="lastNameColumn" prefWidth="200">
+            <TableColumn text="Last Name" fx:id="lastNameColumn" prefWidth="NaN">
                 <cellValueFactory><PropertyValueFactory property="lastName" />
                 </cellValueFactory>
             </TableColumn>
