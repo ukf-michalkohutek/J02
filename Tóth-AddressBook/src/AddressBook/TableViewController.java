@@ -26,5 +26,8 @@ public class TableViewController {
     }
 
 
-
+    public void removeStudent(ActionEvent actionEvent) {
+        ObservableList<Student> data = tableView.getItems();
+        data.remove(tableView.getSelectionModel().getFocusedIndex());
+    }
 }
