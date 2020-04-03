@@ -24,4 +24,12 @@ public class TableViewController {
         lastNameField.setText("");
         emailField.setText("");
     }
+
+    @FXML
+    protected void VymazVybrate(ActionEvent event){
+        tableView.getItems().removeAll(tableView.getSelectionModel().getSelectedItem());
+    }
+
+
+
 }
