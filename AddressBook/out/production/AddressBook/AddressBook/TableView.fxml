@@ -21,18 +21,20 @@
     <Label text="Address Book" style="-fx-font: NORMAL 30 Verdana;" GridPane.rowIndex="0" GridPane.columnIndex="0">
     </Label>
 
+    <!--         TODO: Upravte tuto tabulku, aby prvy stlpec obsahoval priezviska a stlpce boli dostatocne siroke pri spusteni aplikacie -->
+
     <TableView fx:id="tableView" GridPane.columnIndex="0"
                GridPane.rowIndex="1">
         <columns>
+            <TableColumn text="Last Name" fx:id="lastNameColumn" prefWidth="100">
+                <cellValueFactory><PropertyValueFactory property="lastName" />
+                </cellValueFactory>
+            </TableColumn>
             <TableColumn text="First Name" fx:id="firstNameColumn" prefWidth="100">
                 <cellValueFactory><PropertyValueFactory property="firstName" />
                 </cellValueFactory>
             </TableColumn>
-            <TableColumn text="Last Name" prefWidth="100">
-                <cellValueFactory><PropertyValueFactory property="lastName" />
-                </cellValueFactory>
-            </TableColumn>
-            <TableColumn text="Email Address" prefWidth="100">
+            <TableColumn text="Email Address" prefWidth="200">
                 <cellValueFactory><PropertyValueFactory property="email" />
                 </cellValueFactory>
             </TableColumn>
@@ -53,9 +55,9 @@
             </FXCollections>
         </items>
 
-        // TODO: Upravte tento sort order tak, aby sa tabulka zoradila podla priezviska
+<!--         TODO: Upravte tento sort order tak, aby sa tabulka zoradila podla priezviska -->
         <sortOrder>
-            <fx:reference source="firstNameColumn"/>
+            <fx:reference source="lastNameColumn"/>
         </sortOrder>
     </TableView>
 
@@ -68,6 +70,10 @@
         <TextField fx:id="emailField" promptText="email"
                    prefWidth="150"/>
         <Button text="Add" onAction="#addStudent"/>
+
+        <!--     Extra TODO: Vytvorte button, ktory vybraneho studenta vymaze -->
+        <Button text="Example" onAction="#removeStudent"/>
+
     </HBox>
 
 </GridPane>
