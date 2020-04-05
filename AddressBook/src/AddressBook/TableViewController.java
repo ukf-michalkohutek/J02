@@ -6,6 +6,8 @@ import javafx.scene.control.TableView;
 import javafx.scene.control.TextField;
 import javafx.fxml.FXML;
 
+import java.util.Comparator;
+
 public class TableViewController {
     @FXML private TableView<Student> tableView;
     @FXML private TextField firstNameField;
@@ -15,6 +17,11 @@ public class TableViewController {
     @FXML
     protected void addStudent(ActionEvent event) {
         ObservableList<Student> data = tableView.getItems();
+        // Pridaval sa aj prazdny riadok.
+        if (this.firstNameField.getText().equals("")
+                && this.emailField.getText().equals("")
+                && this.lastNameField.getText().equals("")) return;
+
         data.add(new Student(firstNameField.getText(),
                 lastNameField.getText(),
                 emailField.getText()
@@ -23,8 +30,11 @@ public class TableViewController {
         firstNameField.setText("");
         lastNameField.setText("");
         emailField.setText("");
+
     }
 
-
-
+    @FXML
+    public void removeStudent(ActionEvent actionEvent) {
+        this.tableView.getItems().remove(this.tableView.getSelectionModel().getSelectedItem());
+    }
 }
