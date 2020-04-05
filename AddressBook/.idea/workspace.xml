@@ -98,8 +98,9 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../J03/AddressBookSQLite" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../J01/j01" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -196,11 +197,12 @@
       <option name="presentableId" value="Default" />
       <updated>1359379246138</updated>
       <workItem from="1359379250712" duration="1302000" />
+      <workItem from="1586089952430" duration="401000" />
     </task>
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1302000" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
@@ -212,10 +214,10 @@
     </state>
     <state x="1461" y="350" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1586077259502" />
     <state x="2222" y="1185" key="#com.intellij.execution.impl.EditConfigurationsDialog/72.27.3768.2133@72.27.3768.2133" timestamp="1585152691865" />
-    <state x="1572" y="608" width="588" height="254" key="FileChooserDialogImpl" timestamp="1586078693595">
+    <state x="1572" y="608" width="588" height="254" key="FileChooserDialogImpl" timestamp="1586090352286">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1572" y="608" width="588" height="254" key="FileChooserDialogImpl/0.0.2560.1040@0.0.2560.1040" timestamp="1586078693595" />
+    <state x="1572" y="608" width="588" height="254" key="FileChooserDialogImpl/0.0.2560.1040@0.0.2560.1040" timestamp="1586090352286" />
     <state x="2386" y="1274" width="735" height="520" key="FileChooserDialogImpl/72.27.3768.2133@72.27.3768.2133" timestamp="1585152718074" />
     <state width="1234" height="281" key="GridCell.Tab.0.bottom" timestamp="1586078694809">
       <screen x="0" y="0" width="2560" height="1040" />
