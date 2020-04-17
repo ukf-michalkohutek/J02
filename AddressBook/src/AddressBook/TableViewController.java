@@ -1,5 +1,6 @@
 package AddressBook;
 
+import javafx.beans.Observable;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.scene.control.TableView;
@@ -25,6 +26,10 @@ public class TableViewController {
         emailField.setText("");
     }
 
+    @FXML
+    protected void deleteStudent(ActionEvent event) {
+        tableView.getItems().removeAll(tableView.getSelectionModel().getSelectedItem());
+    }
 
 
 }

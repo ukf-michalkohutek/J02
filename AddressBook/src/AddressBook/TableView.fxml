@@ -70,6 +70,7 @@
         <TextField fx:id="emailField" promptText="email"
                    prefWidth="150"/>
         <Button text="Add" onAction="#addStudent"/>
+        <Button text="Delete" onAction="#deleteStudent"/>
 
         <!--     Extra TODO: Vytvorte button, ktory vybraneho studenta vymaze -->
         <!-- <Button text="Example" onAction="#removeStudent"/> -->
