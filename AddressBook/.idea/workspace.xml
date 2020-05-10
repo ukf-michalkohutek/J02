@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="" />
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AddressBook/AddressBook/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AddressBook/AddressBook/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AddressBook/AddressBook/TableView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AddressBook/AddressBook/TableView.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AddressBook/AddressBook/TableViewController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AddressBook/AddressBook/TableViewController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AddressBook/META-INF/AddressBook.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AddressBook/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AddressBook/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AddressBook/TableView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/AddressBook/TableView.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AddressBook/TableViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AddressBook/TableViewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,9 +64,6 @@
     <ui_properties converted="true" />
     <breakpoint_rules converted="true" />
   </component>
-  <component name="FavoritesManager">
-    <favorites_list name="JavaFxApplication" />
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -66,17 +76,20 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1Zcy3cVVvv8IVXbqIls0IXpzbcw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectReloadState">
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -88,12 +101,14 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="OverrideImplement.combined" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="/opt/javafx-sdk-14/lib" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
+    <property name="settings.editor.selected.configurable" value="preferences.pathVariables" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -124,7 +139,7 @@
     <configuration name="Main" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="AddressBook.Main" />
       <module name="AddressBook" />
-      <option name="VM_PARAMETERS" value="--module-path /opt/javafx-sdk-14/lib --add-modules javafx.controls,javafx.fxml" />
+      <option name="VM_PARAMETERS" value="--module-path /opt/javafx-sdk-14/lib --add-modules javafx.controls,javafx.fxml  --module-path ${PATH_TO_FX} --add-modules javafx.controls,javafx.fxml" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="AddressBook.*" />
@@ -186,48 +201,62 @@
       <option name="presentableId" value="Default" />
       <updated>1359379246138</updated>
       <workItem from="1359379250712" duration="1302000" />
+      <workItem from="1589113181058" duration="346000" />
+      <workItem from="1589115191564" duration="1608000" />
+      <workItem from="1589117442952" duration="18000" />
     </task>
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1302000" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2222" y="1185" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585152691865">
-      <screen x="72" y="27" width="3768" height="2133" />
+    <state x="1208" y="247" key="#Project_Structure" timestamp="1589115435088">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
+    <state x="1208" y="247" key="#Project_Structure/0.0.2560.1400@0.0.2560.1400" timestamp="1589115435088" />
+    <state x="1468" y="499" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589115293254">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1468" y="499" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1589115293254" />
     <state x="2222" y="1185" key="#com.intellij.execution.impl.EditConfigurationsDialog/72.27.3768.2133@72.27.3768.2133" timestamp="1585152691865" />
-    <state x="2386" y="1274" width="735" height="520" key="FileChooserDialogImpl" timestamp="1585152718074">
-      <screen x="72" y="27" width="3768" height="2133" />
+    <state x="1572" y="818" width="735" height="520" key="FileChooserDialogImpl" timestamp="1589115997404">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
+    <state x="1572" y="818" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1589115997404" />
     <state x="2386" y="1274" width="735" height="520" key="FileChooserDialogImpl/72.27.3768.2133@72.27.3768.2133" timestamp="1585152718074" />
-    <state width="2511" height="229" key="GridCell.Tab.0.bottom" timestamp="1585306703487">
-      <screen x="72" y="27" width="3768" height="2133" />
+    <state width="2517" height="155" key="GridCell.Tab.0.bottom" timestamp="1589117460627">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
+    <state width="2517" height="155" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1589117460627" />
     <state width="1528" height="182" key="GridCell.Tab.0.bottom/72.27.1848.1053@72.27.1848.1053" timestamp="1585155244439" />
     <state width="2511" height="229" key="GridCell.Tab.0.bottom/72.27.3768.2133@72.27.3768.2133" timestamp="1585306703487" />
-    <state width="2511" height="229" key="GridCell.Tab.0.center" timestamp="1585306703487">
-      <screen x="72" y="27" width="3768" height="2133" />
+    <state width="2517" height="155" key="GridCell.Tab.0.center" timestamp="1589117460627">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
+    <state width="2517" height="155" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1589117460627" />
     <state width="1528" height="182" key="GridCell.Tab.0.center/72.27.1848.1053@72.27.1848.1053" timestamp="1585155244438" />
     <state width="2511" height="229" key="GridCell.Tab.0.center/72.27.3768.2133@72.27.3768.2133" timestamp="1585306703487" />
-    <state width="2511" height="229" key="GridCell.Tab.0.left" timestamp="1585306703486">
-      <screen x="72" y="27" width="3768" height="2133" />
+    <state width="2517" height="155" key="GridCell.Tab.0.left" timestamp="1589117460627">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
+    <state width="2517" height="155" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1589117460627" />
     <state width="1528" height="182" key="GridCell.Tab.0.left/72.27.1848.1053@72.27.1848.1053" timestamp="1585155244438" />
     <state width="2511" height="229" key="GridCell.Tab.0.left/72.27.3768.2133@72.27.3768.2133" timestamp="1585306703486" />
-    <state width="2511" height="229" key="GridCell.Tab.0.right" timestamp="1585306703487">
-      <screen x="72" y="27" width="3768" height="2133" />
+    <state width="2517" height="155" key="GridCell.Tab.0.right" timestamp="1589117460627">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
+    <state width="2517" height="155" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1589117460627" />
     <state width="1528" height="182" key="GridCell.Tab.0.right/72.27.1848.1053@72.27.1848.1053" timestamp="1585155244439" />
     <state width="2511" height="229" key="GridCell.Tab.0.right/72.27.3768.2133@72.27.3768.2133" timestamp="1585306703487" />
-    <state x="2247" y="1105" width="1024" height="852" key="SettingsEditor" timestamp="1585305250113">
-      <screen x="72" y="27" width="3768" height="2133" />
+    <state x="1442" y="572" width="916" height="708" key="SettingsEditor" timestamp="1589115515280">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
+    <state x="1442" y="572" width="916" height="708" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1589115515280" />
     <state x="2247" y="1105" width="1024" height="852" key="SettingsEditor/72.27.3768.2133@72.27.3768.2133" timestamp="1585305250113" />
     <state x="2427" y="1180" width="672" height="678" key="search.everywhere.popup" timestamp="1585152951987">
       <screen x="72" y="27" width="3768" height="2133" />

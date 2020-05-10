@@ -24,15 +24,15 @@
     <TableView fx:id="tableView" GridPane.columnIndex="0"
                GridPane.rowIndex="1">
         <columns>
-            <TableColumn text="First Name" fx:id="firstNameColumn" prefWidth="100">
-                <cellValueFactory><PropertyValueFactory property="firstName" />
-                </cellValueFactory>
-            </TableColumn>
-            <TableColumn text="Last Name" prefWidth="100">
+            <TableColumn text="Priezvisko" fx:id="lastNameColumn" prefWidth="150">
                 <cellValueFactory><PropertyValueFactory property="lastName" />
                 </cellValueFactory>
             </TableColumn>
-            <TableColumn text="Email Address" prefWidth="100">
+            <TableColumn text="Meno" fx:id="firstNameColumn" prefWidth="100">
+                <cellValueFactory><PropertyValueFactory property="firstName" />
+                </cellValueFactory>
+            </TableColumn>
+            <TableColumn text="Email Adresa" prefWidth="300">
                 <cellValueFactory><PropertyValueFactory property="email" />
                 </cellValueFactory>
             </TableColumn>
@@ -53,9 +53,8 @@
             </FXCollections>
         </items>
 
-        // TODO: Upravte tento sort order tak, aby sa tabulka zoradila podla priezviska
         <sortOrder>
-            <fx:reference source="firstNameColumn"/>
+            <fx:reference source="lastNameColumn"/>
         </sortOrder>
     </TableView>
 
@@ -68,6 +67,8 @@
         <TextField fx:id="emailField" promptText="email"
                    prefWidth="150"/>
         <Button text="Add" onAction="#addStudent"/>
+        <Button text="Zmaz" onAction="#removeStudent"/>
+
     </HBox>
 
 </GridPane>

@@ -24,6 +24,10 @@ public class TableViewController {
         lastNameField.setText("");
         emailField.setText("");
     }
+    @FXML
+    protected void removeStudent(ActionEvent e) {
+        tableView.getItems().removeAll(tableView.getSelectionModel().getSelectedItem());
+    }
 
 
 
