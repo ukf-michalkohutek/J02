@@ -25,6 +25,7 @@ public class TableViewController {
         emailField.setText("");
     }
 
-
-
+    public void removeStudent(ActionEvent actionEvent) {
+        tableView.getItems().remove(tableView.getSelectionModel().getFocusedIndex());
+    }
 }
